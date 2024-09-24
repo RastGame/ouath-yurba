@@ -1,5 +1,5 @@
 # ouath-yurba
-Example ouath with Yurba.one ( node.js )
+Example ouath with Yurba.one ( node.js ) -> https://yurba.one/user/RastGame?post_id=1724
 
 <a href="/docs/uk.md">Українська</a> | <a href="/docs/pl.md">Polski</a> 
 
