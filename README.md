@@ -26,7 +26,7 @@ Example of implementing user authentication via OAuth using the Yurba social net
 2. Copy the `.env.example` file to `.env` and fill it with the values:
 
 ### <a href="https://yurba.one/settings/?page=developer" target="_blank">Public Key & Secret</a> 
-### <a href="https://yurba.one/settings/?page=developer" target="_blank">Token</a> 
+### <a href="https://docs.yurba.one/login" target="_blank">Token</a> 
 
    ```plaintext
    PORT=3000
@@ -48,7 +48,6 @@ Example of implementing user authentication via OAuth using the Yurba social net
    ```bash
    npm install dotenv express express-session axios 
    ```
-   ### &
    ```bash
    node index.js 
    ```
@@ -76,3 +75,5 @@ To test, deploy the server and navigate to `http://localhost:3000/`, where you c
 ---
 
 I hope this helps! If you need anything more specific or detailed, let me know!
+
+<a href="https://me.yurba.one/RastGame" target="_blank">Yurba</a> || <a href="https://github.com/RastGame" target="_blank">Github</a>

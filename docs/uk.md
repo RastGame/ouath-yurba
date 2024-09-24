@@ -2,7 +2,7 @@
 
 # Документація
 Приклад реалізації аутентифікації користувача через OAuth за допомогою API соціальної мережі Yurba.
-<a href="https://me.yurba.one/RastGame" target="_blank"> Yurba </a> || <a href="https://github.com/RastGame" target="_blank"> Github </a>
+
 ## Використання
 
 ### Вимоги
@@ -22,7 +22,7 @@
 2. Скопіюйте файл `.env.example` у `.env` і заповніть його значеннями:
 
 ### <a href="https://yurba.one/settings/?page=developer" target="_blank"> Public Key & Secret </a> 
-### <a href="https://yurba.one/settings/?page=developer" target="_blank"> Token </a> 
+### <a href="https://docs.yurba.one/login" target="_blank"> Token </a> 
 
    ```plaintext
    PORT=3000
@@ -71,3 +71,5 @@
 ---
 
 Сподіваюсь, це допоможе! Якщо потрібно щось конкретніше або детальніше, дай знати!
+
+<a href="https://me.yurba.one/RastGame" target="_blank">Yurba</a> || <a href="https://github.com/RastGame" target="_blank">Github</a>

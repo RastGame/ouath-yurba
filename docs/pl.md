@@ -1,10 +1,7 @@
-Ось переклад польською:
-
 ---
 
 # Dokumentacja
 Przykład implementacji uwierzytelniania użytkownika przez OAuth przy użyciu API sieci społecznościowej Yurba.
-<a href="https://me.yurba.one/RastGame" target="_blank">Yurba</a> || <a href="https://github.com/RastGame" target="_blank">Github</a>
 ## Użycie
 
 ### Wymagania
@@ -23,7 +20,7 @@ Przykład implementacji uwierzytelniania użytkownika przez OAuth przy użyciu A
 2. Skopiuj plik `.env.example` do `.env` i uzupełnij go:
 
 ### <a href="https://yurba.one/settings/?page=developer" target="_blank">Klucz publiczny i sekret</a> 
-### <a href="https://yurba.one/settings/?page=developer" target="_blank">Token</a> 
+### <a href="https://docs.yurba.one/login" target="_blank">Token</a> 
 
    ```plaintext
    PORT=3000
@@ -72,3 +69,5 @@ Aby przetestować, uruchom serwer i przejdź pod adres `http://localhost:3000/`,
 ---
 
 Mam nadzieję, że to pomoże! Jeśli potrzebujesz czegoś bardziej konkretnego lub szczegółowego, daj znać!
+
+<a href="https://me.yurba.one/RastGame" target="_blank">Yurba</a> || <a href="https://github.com/RastGame" target="_blank">Github</a>
