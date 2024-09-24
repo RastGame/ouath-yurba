@@ -1,14 +1,13 @@
 # ouath-yurba
 Example ouath with Yurba.one ( node.js )
 
-<a href="/docs/uk.md">Українською</a>
+<a href="/docs/uk.md">Українська</a> | <a href="/docs/pl.md">Polski</a> 
 
 ---
 
-# Project Documentation
-
-Example implementation of user authentication via OAuth using the Yurba social network API.
-
+# Documentation
+Example of implementing user authentication via OAuth using the Yurba social network API.
+<a href="https://me.yurba.one/RastGame" target="_blank">Yurba</a> || <a href="https://github.com/RastGame" target="_blank">Github</a>
 ## Usage
 
 ### Requirements
@@ -16,9 +15,18 @@ Example implementation of user authentication via OAuth using the Yurba social n
 - Node.js
 - npm
 
-### Setup
+### Setup 
 
-1. Copy the file `.env.example` to `.env` and fill it with the following values:
+1. Clone the project:
+
+   ```bash
+   git clone https://github.com/RastGame/ouath-yurba.git
+   ```
+
+2. Copy the `.env.example` file to `.env` and fill it with the values:
+
+### <a href="https://yurba.one/settings/?page=developer" target="_blank">Public Key & Secret</a> 
+### <a href="https://yurba.one/settings/?page=developer" target="_blank">Token</a> 
 
    ```plaintext
    PORT=3000
@@ -29,7 +37,7 @@ Example implementation of user authentication via OAuth using the Yurba social n
    SESSION_SECRET=your_session_secret
    ```
 
-2. Install the required packages:
+3. Install the required packages and start the server:
 
    ```bash
    npm run run
@@ -40,39 +48,31 @@ Example implementation of user authentication via OAuth using the Yurba social n
    ```bash
    npm install dotenv express express-session axios 
    ```
-
-3. Start the server:
-
-   ```bash
-   npm run run   
-   ```
-   
-   #### Or
-
+   ### &
    ```bash
    node index.js 
    ```
 
 ### Endpoints
 
-- `GET /`: The main page, which contains a link to initiate authentication.
+- `GET /`: The homepage, which contains a link to initiate authentication.
   
-- `GET /oauth`: Redirects the user to the Yurba authentication page. Constructs the URL using `PUBLIC_KEY` and `REDIRECT_URL`.
+- `GET /oauth`: Redirects the user to the Yurba authentication page. Forms the URL using `PUBLIC_KEY` and `REDIRECT_URL`.
 
-- `GET /redirect`: Handles the redirect after successful authentication. Receives the user's token and requests user information from the Yurba API. Stores user information in the session.
+- `GET /redirect`: Handles the redirect after successful authentication. Retrieves the user's token and requests user information from the Yurba API. Stores user information in the session.
 
 ### Logging
 
-The entire process logs actions to the console with the date and time specified. A `log(message)` function is used to format the output.
+The entire process logs actions to the console with timestamps. It uses the `log(message)` function, which formats the output.
 
 ### Sending Messages
 
-The `postDialogMessage(token, dialogId, text)` function allows sending messages to Yurba private dialogs. It accepts a token, a dialog identifier, and the message text.
+The function `postDialogMessage(token, dialogId, text)` allows sending messages in private Yurba dialogs. It accepts a token, dialog ID, and message text.
 
 ## Examples
 
-To test, start the server and go to `http://localhost:3000/`, where you can initiate the authentication process.
+To test, deploy the server and navigate to `http://localhost:3000/`, where you can initiate the authentication process.
 
 ---
 
-I hope this helps! If you need anything more specific or detailed, just let me know!
+I hope this helps! If you need anything more specific or detailed, let me know!

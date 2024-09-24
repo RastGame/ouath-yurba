@@ -135,3 +135,4 @@ async function postDialogMessage(token, dialogId, text) {
 app.listen(PORT, () => {
     log(`Server started at http://localhost:${PORT}`);
 });
+

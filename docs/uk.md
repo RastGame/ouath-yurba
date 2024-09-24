@@ -1,9 +1,8 @@
 ---
 
-# Документація до проекту
-
+# Документація
 Приклад реалізації аутентифікації користувача через OAuth за допомогою API соціальної мережі Yurba.
-
+<a href="https://me.yurba.one/RastGame" target="_blank"> Yurba </a> || <a href="https://github.com/RastGame" target="_blank"> Github </a>
 ## Використання
 
 ### Вимоги
@@ -13,7 +12,17 @@
 
 ### Налаштування
 
-1. Скопіюйте файл `.env.example` у `.env` і заповніть його значеннями:
+
+1. Скопіюйте проєкт:
+
+   ```bash
+   git clone https://github.com/RastGame/ouath-yurba.git
+   ```
+ 
+2. Скопіюйте файл `.env.example` у `.env` і заповніть його значеннями:
+
+### <a href="https://yurba.one/settings/?page=developer" target="_blank"> Public Key & Secret </a> 
+### <a href="https://yurba.one/settings/?page=developer" target="_blank"> Token </a> 
 
    ```plaintext
    PORT=3000
@@ -24,7 +33,7 @@
    SESSION_SECRET=your_session_secret
    ```
 
-2. Встановіть необхідні пакети:
+3. Встановіть необхідні пакети та запустіть сервер:
 
    ```bash
    npm run run
@@ -35,15 +44,6 @@
    ```bash
    npm install dotenv express express-session axios 
    ```
-
-3. Запустіть сервер:
-
-   ```bash
-   npm run run   
-   ```
-   
-   #### Або
-
    ```bash
    node index.js 
    ```
