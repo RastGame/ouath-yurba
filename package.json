@@ -1,0 +1,31 @@
+{
+  "name": "oauth-yurba",
+  "version": "1.0.0",
+  "description": "Example oauth with Yurba.one",
+  "main": "index.js",
+  "scripts": {
+    "run": "npm install && npm start",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RastGame/ouath-yurba.git"
+  },
+  "keywords": [
+    "Yurba",
+    "YurbaOuath",
+    "Example"
+  ],
+  "author": "RastGame",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RastGame/ouath-yurba/issues"
+  },
+  "homepage": "https://github.com/RastGame/ouath-yurba#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0"
+  }
+}
