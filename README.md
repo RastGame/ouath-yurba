@@ -74,6 +74,5 @@ To test, deploy the server and navigate to `http://localhost:3000/`, where you c
 
 ---
 
-I hope this helps! If you need anything more specific or detailed, let me know!
 
 <a href="https://me.yurba.one/RastGame" target="_blank">Yurba</a> || <a href="https://github.com/RastGame" target="_blank">Github</a>
