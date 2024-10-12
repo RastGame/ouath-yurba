@@ -70,6 +70,4 @@
 
 ---
 
-Сподіваюсь, це допоможе! Якщо потрібно щось конкретніше або детальніше, дай знати!
-
 <a href="https://me.yurba.one/RastGame" target="_blank">Yurba</a> || <a href="https://github.com/RastGame" target="_blank">Github</a>
