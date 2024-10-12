@@ -68,6 +68,4 @@ Aby przetestować, uruchom serwer i przejdź pod adres `http://localhost:3000/`,
 
 ---
 
-Mam nadzieję, że to pomoże! Jeśli potrzebujesz czegoś bardziej konkretnego lub szczegółowego, daj znać!
-
 <a href="https://me.yurba.one/RastGame" target="_blank">Yurba</a> || <a href="https://github.com/RastGame" target="_blank">Github</a>
